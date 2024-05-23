@@ -1,5 +1,4 @@
 fake_useragent
-beautifulsoup
 requests
 datetime
 telethon
