@@ -3,6 +3,7 @@ from time import sleep
 from random import choice
 from base64 import b64decode
     from requests import get
+    from requests import get
     from telethon import TelegramClient, sync, errors, functions, types
     from telethon.tl.functions.account import CheckUsernameRequest, UpdateUsernameRequest
     from telethon.tl.functions.channels import JoinChannelRequest
