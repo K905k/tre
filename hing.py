@@ -4,32 +4,22 @@ from random import choice
 from base64 import b64decode
 try:
     from requests import get
-except:
-    system('pip install requests')
     from requests import get
 try:
     from telethon import TelegramClient, sync, errors, functions, types
     from telethon.tl.functions.account import CheckUsernameRequest, UpdateUsernameRequest
     from telethon.tl.functions.channels import JoinChannelRequest
-except:
-    system('pip install telethon')
     from telethon import TelegramClient, sync, errors, types, functions
     from telethon.tl.functions.account import CheckUsernameRequest, UpdateUsernameRequest
     from telethon.tl.functions.channels import JoinChannelRequest
 try:
     from bs4 import BeautifulSoup as S
-except:
-    system('pip install beautifulsoup')
     from bs4 import BeautifulSoup as S
 try:
     from fake_useragent import UserAgent
-except:
-    system('pip install fake_useragent')
     from fake_useragent import UserAgent
 try:
 	from datetime import datetime
-except:
-	system('pip install datetime')
 	from datetime import datetime
 # Import/Download Libraries
 me = ("@uu3c3")
