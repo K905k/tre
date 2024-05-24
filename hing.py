@@ -2,24 +2,16 @@ from os import system, name, path
 from time import sleep
 from random import choice
 from base64 import b64decode
-try:
     from requests import get
-    from requests import get
-try:
     from telethon import TelegramClient, sync, errors, functions, types
     from telethon.tl.functions.account import CheckUsernameRequest, UpdateUsernameRequest
     from telethon.tl.functions.channels import JoinChannelRequest
     from telethon import TelegramClient, sync, errors, types, functions
     from telethon.tl.functions.account import CheckUsernameRequest, UpdateUsernameRequest
     from telethon.tl.functions.channels import JoinChannelRequest
-try:
     from bs4 import BeautifulSoup as S
-    from bs4 import BeautifulSoup as S
-try:
     from fake_useragent import UserAgent
     from fake_useragent import UserAgent
-try:
-	from datetime import datetime
 	from datetime import datetime
 # Import/Download Libraries
 me = ("@uu3c3")
